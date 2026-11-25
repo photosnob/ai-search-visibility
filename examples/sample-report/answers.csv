@@ -1,0 +1,73 @@
+recorded_at,run_id,dry_run,synthetic,provider,model,prompt_id,category,mentioned,position,position_scale,position_method,sentiment,sentiment_score,mention_factor,position_factor,sentiment_factor,citation_factor,visibility_score,cited_brand_domain,error,prompt,answer
+2026-09-01T00:00:00Z,16df28ae312e4a43,1,1,openai,mock,best-hiking,category,1,,,unranked,positive,1.00,1.000000,0.500000,1.000000,1.000000,87.5,1,,What are the best hiking apparel brands for weekend trips?,Northwind is a dependable and comfortable option for this. The buying guide is straightforward. https://northwind.example/guide
+2026-09-01T00:00:00Z,16df28ae312e4a43,1,1,perplexity,mock,best-hiking,category,1,1,2,order,negative,-0.33,1.000000,1.000000,0.200000,0.400000,75.0,0,,What are the best hiking apparel brands for weekend trips?,"Northwind looks polished in the photos, but owner writeups call the fit disappointing and the warranty poor. Contoso is described as more reliable for the same use. https://contoso.example/reviews"
+2026-09-01T00:00:00Z,16df28ae312e4a43,1,1,openai,mock,rain-jackets,comparison,1,2,3,list,positive,1.00,1.000000,0.666667,1.000000,1.000000,91.7,1,,Which sustainable rain jacket brands are worth buying?,"1. Contoso is the reliable default. https://contoso.example/
+2. Northwind is a solid alternative if you already like the fit. https://northwind.example/fit
+3. Fabrikam is easy to find and unremarkable. https://fabrikam.example/"
+2026-09-01T00:00:00Z,16df28ae312e4a43,1,1,perplexity,mock,rain-jackets,comparison,0,,,none,unmentioned,,0.000000,0.000000,0.000000,0.000000,0.0,0,,Which sustainable rain jacket brands are worth buying?,"1. Contoso is the name that comes up most often. https://contoso.example/jackets
+2. Fabrikam is a reasonable alternative. https://guides.example/roundup"
+2026-09-01T00:00:00Z,16df28ae312e4a43,1,1,openai,mock,northwind-vs-contoso,comparison,1,2,2,order,positive,1.00,1.000000,0.500000,1.000000,1.000000,87.5,1,,How does Northwind compare with Contoso for everyday jackets?,"Contoso and Northwind both come up for this. Northwind is a practical choice, while Contoso is easier to find in stores."
+2026-09-01T00:00:00Z,16df28ae312e4a43,1,1,perplexity,mock,northwind-vs-contoso,comparison,1,,,unranked,positive,1.00,1.000000,0.500000,1.000000,1.000000,87.5,1,,How does Northwind compare with Contoso for everyday jackets?,Northwind is a dependable and comfortable option for this. The buying guide is straightforward. https://northwind.example/guide
+2026-09-01T00:00:00Z,16df28ae312e4a43,1,1,openai,mock,repairable,consideration,1,1,2,order,negative,-0.33,1.000000,1.000000,0.200000,0.400000,75.0,0,,Where should I look for repairable outdoor clothing?,"Northwind looks polished in the photos, but owner writeups call the fit disappointing and the warranty poor. Contoso is described as more reliable for the same use. https://contoso.example/reviews"
+2026-09-01T00:00:00Z,16df28ae312e4a43,1,1,perplexity,mock,repairable,consideration,1,1,2,order,negative,-0.33,1.000000,1.000000,0.200000,0.400000,75.0,0,,Where should I look for repairable outdoor clothing?,"Northwind looks polished in the photos, but owner writeups call the fit disappointing and the warranty poor. Contoso is described as more reliable for the same use. https://contoso.example/reviews"
+2026-09-01T00:00:00Z,16df28ae312e4a43,1,1,openai,mock,worth-it,brand,1,1,2,order,negative,-0.33,1.000000,1.000000,0.200000,0.400000,75.0,0,,Is Northwind worth it for someone who hikes a few times a year?,"Northwind looks polished in the photos, but owner writeups call the fit disappointing and the warranty poor. Contoso is described as more reliable for the same use. https://contoso.example/reviews"
+2026-09-01T00:00:00Z,16df28ae312e4a43,1,1,perplexity,mock,worth-it,brand,1,1,2,order,negative,-0.33,1.000000,1.000000,0.200000,0.400000,75.0,0,,Is Northwind worth it for someone who hikes a few times a year?,"Northwind looks polished in the photos, but owner writeups call the fit disappointing and the warranty poor. Contoso is described as more reliable for the same use. https://contoso.example/reviews"
+2026-09-01T00:00:00Z,16df28ae312e4a43,1,1,openai,mock,fleece,category,1,1,2,order,negative,-0.33,1.000000,1.000000,0.200000,0.400000,75.0,0,,What are good mid-priced fleece brands?,"Northwind looks polished in the photos, but owner writeups call the fit disappointing and the warranty poor. Contoso is described as more reliable for the same use. https://contoso.example/reviews"
+2026-09-01T00:00:00Z,16df28ae312e4a43,1,1,perplexity,mock,fleece,category,1,2,3,list,positive,1.00,1.000000,0.666667,1.000000,1.000000,91.7,1,,What are good mid-priced fleece brands?,"1. Contoso is the reliable default. https://contoso.example/
+2. Northwind is a solid alternative if you already like the fit. https://northwind.example/fit
+3. Fabrikam is easy to find and unremarkable. https://fabrikam.example/"
+2026-10-15T00:00:00Z,f58f11e7e1bd42d4,1,1,openai,mock,best-hiking,category,1,1,2,order,negative,-0.33,1.000000,1.000000,0.200000,0.400000,75.0,0,,What are the best hiking apparel brands for weekend trips?,"Northwind looks polished in the photos, but owner writeups call the fit disappointing and the warranty poor. Contoso is described as more reliable for the same use. https://contoso.example/reviews"
+2026-10-15T00:00:00Z,f58f11e7e1bd42d4,1,1,perplexity,mock,best-hiking,category,1,2,2,order,positive,1.00,1.000000,0.500000,1.000000,1.000000,87.5,1,,What are the best hiking apparel brands for weekend trips?,"Contoso and Northwind both come up for this. Northwind is a practical choice, while Contoso is easier to find in stores."
+2026-10-15T00:00:00Z,f58f11e7e1bd42d4,1,1,openai,mock,rain-jackets,comparison,1,2,2,order,positive,1.00,1.000000,0.500000,1.000000,1.000000,87.5,1,,Which sustainable rain jacket brands are worth buying?,"Contoso and Northwind both come up for this. Northwind is a practical choice, while Contoso is easier to find in stores."
+2026-10-15T00:00:00Z,f58f11e7e1bd42d4,1,1,perplexity,mock,rain-jackets,comparison,1,1,2,order,negative,-0.33,1.000000,1.000000,0.200000,0.400000,75.0,0,,Which sustainable rain jacket brands are worth buying?,"Northwind looks polished in the photos, but owner writeups call the fit disappointing and the warranty poor. Contoso is described as more reliable for the same use. https://contoso.example/reviews"
+2026-10-15T00:00:00Z,f58f11e7e1bd42d4,1,1,openai,mock,northwind-vs-contoso,comparison,0,,,none,unmentioned,,0.000000,0.000000,0.000000,0.000000,0.0,0,,How does Northwind compare with Contoso for everyday jackets?,"1. Contoso is the name that comes up most often. https://contoso.example/jackets
+2. Fabrikam is a reasonable alternative. https://guides.example/roundup"
+2026-10-15T00:00:00Z,f58f11e7e1bd42d4,1,1,perplexity,mock,northwind-vs-contoso,comparison,1,1,3,list,positive,1.00,1.000000,1.000000,1.000000,1.000000,100.0,1,,How does Northwind compare with Contoso for everyday jackets?,"For a question like this, a short list is more useful than a long survey.
+
+1. Northwind is a reliable and thoughtful option. https://northwind.example/guide
+2. Contoso is widely stocked, with an ordinary finish. https://contoso.example/
+3. Fabrikam is the budget alternative. https://fabrikam.example/
+
+Northwind is the one to start with if you want something repairable."
+2026-10-15T00:00:00Z,f58f11e7e1bd42d4,1,1,openai,mock,repairable,consideration,1,1,3,list,positive,1.00,1.000000,1.000000,1.000000,1.000000,100.0,1,,Where should I look for repairable outdoor clothing?,"For a question like this, a short list is more useful than a long survey.
+
+1. Northwind is a reliable and thoughtful option. https://northwind.example/guide
+2. Contoso is widely stocked, with an ordinary finish. https://contoso.example/
+3. Fabrikam is the budget alternative. https://fabrikam.example/
+
+Northwind is the one to start with if you want something repairable."
+2026-10-15T00:00:00Z,f58f11e7e1bd42d4,1,1,perplexity,mock,repairable,consideration,0,,,none,unmentioned,,0.000000,0.000000,0.000000,0.000000,0.0,0,,Where should I look for repairable outdoor clothing?,"1. Contoso is the name that comes up most often. https://contoso.example/jackets
+2. Fabrikam is a reasonable alternative. https://guides.example/roundup"
+2026-10-15T00:00:00Z,f58f11e7e1bd42d4,1,1,openai,mock,worth-it,brand,1,2,2,order,positive,1.00,1.000000,0.500000,1.000000,1.000000,87.5,1,,Is Northwind worth it for someone who hikes a few times a year?,"Contoso and Northwind both come up for this. Northwind is a practical choice, while Contoso is easier to find in stores."
+2026-10-15T00:00:00Z,f58f11e7e1bd42d4,1,1,perplexity,mock,worth-it,brand,1,,,unranked,positive,1.00,1.000000,0.500000,1.000000,1.000000,87.5,1,,Is Northwind worth it for someone who hikes a few times a year?,Northwind is a dependable and comfortable option for this. The buying guide is straightforward. https://northwind.example/guide
+2026-10-15T00:00:00Z,f58f11e7e1bd42d4,1,1,openai,mock,fleece,category,1,,,unranked,positive,1.00,1.000000,0.500000,1.000000,1.000000,87.5,1,,What are good mid-priced fleece brands?,Northwind is a dependable and comfortable option for this. The buying guide is straightforward. https://northwind.example/guide
+2026-10-15T00:00:00Z,f58f11e7e1bd42d4,1,1,perplexity,mock,fleece,category,1,1,2,order,negative,-0.33,1.000000,1.000000,0.200000,0.400000,75.0,0,,What are good mid-priced fleece brands?,"Northwind looks polished in the photos, but owner writeups call the fit disappointing and the warranty poor. Contoso is described as more reliable for the same use. https://contoso.example/reviews"
+2026-11-20T00:00:00Z,5359a2adad6e4527,1,1,openai,mock,best-hiking,category,1,2,2,order,positive,1.00,1.000000,0.500000,1.000000,1.000000,87.5,1,,What are the best hiking apparel brands for weekend trips?,"Contoso and Northwind both come up for this. Northwind is a practical choice, while Contoso is easier to find in stores."
+2026-11-20T00:00:00Z,5359a2adad6e4527,1,1,perplexity,mock,best-hiking,category,1,1,2,order,negative,-0.33,1.000000,1.000000,0.200000,0.400000,75.0,0,,What are the best hiking apparel brands for weekend trips?,"Northwind looks polished in the photos, but owner writeups call the fit disappointing and the warranty poor. Contoso is described as more reliable for the same use. https://contoso.example/reviews"
+2026-11-20T00:00:00Z,5359a2adad6e4527,1,1,openai,mock,rain-jackets,comparison,0,,,none,unmentioned,,0.000000,0.000000,0.000000,0.000000,0.0,0,,Which sustainable rain jacket brands are worth buying?,"1. Contoso is the name that comes up most often. https://contoso.example/jackets
+2. Fabrikam is a reasonable alternative. https://guides.example/roundup"
+2026-11-20T00:00:00Z,5359a2adad6e4527,1,1,perplexity,mock,rain-jackets,comparison,1,1,2,order,negative,-0.33,1.000000,1.000000,0.200000,0.400000,75.0,0,,Which sustainable rain jacket brands are worth buying?,"Northwind looks polished in the photos, but owner writeups call the fit disappointing and the warranty poor. Contoso is described as more reliable for the same use. https://contoso.example/reviews"
+2026-11-20T00:00:00Z,5359a2adad6e4527,1,1,openai,mock,northwind-vs-contoso,comparison,1,2,3,list,positive,1.00,1.000000,0.666667,1.000000,1.000000,91.7,1,,How does Northwind compare with Contoso for everyday jackets?,"1. Contoso is the reliable default. https://contoso.example/
+2. Northwind is a solid alternative if you already like the fit. https://northwind.example/fit
+3. Fabrikam is easy to find and unremarkable. https://fabrikam.example/"
+2026-11-20T00:00:00Z,5359a2adad6e4527,1,1,perplexity,mock,northwind-vs-contoso,comparison,1,,,unranked,positive,1.00,1.000000,0.500000,1.000000,1.000000,87.5,1,,How does Northwind compare with Contoso for everyday jackets?,Northwind is a dependable and comfortable option for this. The buying guide is straightforward. https://northwind.example/guide
+2026-11-20T00:00:00Z,5359a2adad6e4527,1,1,openai,mock,repairable,consideration,1,1,3,list,positive,1.00,1.000000,1.000000,1.000000,1.000000,100.0,1,,Where should I look for repairable outdoor clothing?,"For a question like this, a short list is more useful than a long survey.
+
+1. Northwind is a reliable and thoughtful option. https://northwind.example/guide
+2. Contoso is widely stocked, with an ordinary finish. https://contoso.example/
+3. Fabrikam is the budget alternative. https://fabrikam.example/
+
+Northwind is the one to start with if you want something repairable."
+2026-11-20T00:00:00Z,5359a2adad6e4527,1,1,perplexity,mock,repairable,consideration,1,1,3,list,positive,1.00,1.000000,1.000000,1.000000,1.000000,100.0,1,,Where should I look for repairable outdoor clothing?,"For a question like this, a short list is more useful than a long survey.
+
+1. Northwind is a reliable and thoughtful option. https://northwind.example/guide
+2. Contoso is widely stocked, with an ordinary finish. https://contoso.example/
+3. Fabrikam is the budget alternative. https://fabrikam.example/
+
+Northwind is the one to start with if you want something repairable."
+2026-11-20T00:00:00Z,5359a2adad6e4527,1,1,openai,mock,worth-it,brand,1,1,2,order,negative,-0.33,1.000000,1.000000,0.200000,0.400000,75.0,0,,Is Northwind worth it for someone who hikes a few times a year?,"Northwind looks polished in the photos, but owner writeups call the fit disappointing and the warranty poor. Contoso is described as more reliable for the same use. https://contoso.example/reviews"
+2026-11-20T00:00:00Z,5359a2adad6e4527,1,1,perplexity,mock,worth-it,brand,1,2,2,order,positive,1.00,1.000000,0.500000,1.000000,1.000000,87.5,1,,Is Northwind worth it for someone who hikes a few times a year?,"Contoso and Northwind both come up for this. Northwind is a practical choice, while Contoso is easier to find in stores."
+2026-11-20T00:00:00Z,5359a2adad6e4527,1,1,openai,mock,fleece,category,1,2,3,list,positive,1.00,1.000000,0.666667,1.000000,1.000000,91.7,1,,What are good mid-priced fleece brands?,"1. Contoso is the reliable default. https://contoso.example/
+2. Northwind is a solid alternative if you already like the fit. https://northwind.example/fit
+3. Fabrikam is easy to find and unremarkable. https://fabrikam.example/"
+2026-11-20T00:00:00Z,5359a2adad6e4527,1,1,perplexity,mock,fleece,category,1,,,unranked,positive,1.00,1.000000,0.500000,1.000000,1.000000,87.5,1,,What are good mid-priced fleece brands?,Northwind is a dependable and comfortable option for this. The buying guide is straightforward. https://northwind.example/guide
