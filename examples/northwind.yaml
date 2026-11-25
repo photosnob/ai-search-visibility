@@ -1,0 +1,44 @@
+# Fictional brand. Northwind, Contoso, and Fabrikam are made-up names, and
+# .example is a reserved TLD. This file is safe to run with --dry-run.
+# It is not a measurement of any company.
+
+brand:
+  name: Northwind
+  domain: northwind.example
+  aliases:
+    - Northwind Outfitters
+
+competitors:
+  - name: Contoso
+    domain: contoso.example
+    aliases:
+      - Contoso Gear
+  - name: Fabrikam
+    domain: fabrikam.example
+
+prompts:
+  - id: best-hiking
+    category: category
+    text: What are the best hiking apparel brands for weekend trips?
+  - id: rain-jackets
+    category: comparison
+    text: Which sustainable rain jacket brands are worth buying?
+  - id: northwind-vs-contoso
+    category: comparison
+    text: How does Northwind compare with Contoso for everyday jackets?
+  - id: repairable
+    category: consideration
+    text: Where should I look for repairable outdoor clothing?
+  - id: worth-it
+    category: brand
+    text: Is Northwind worth it for someone who hikes a few times a year?
+  - id: fleece
+    category: category
+    text: What are good mid-priced fleece brands?
+
+providers:
+  - openai
+  - perplexity
+
+settings:
+  timeout_seconds: 90
